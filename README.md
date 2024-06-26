@@ -1,4 +1,4 @@
-#30-day smart contract personal challenge
+# 30-day smart contract personal challenge
 
 I'm challenging myself to code one smart contract a day for the next 30 days. I'll start by storing simple math and physics constants and gradually tackle complex data structures and scientific applications.
 
