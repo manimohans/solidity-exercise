@@ -10,3 +10,5 @@ Using the following:
 * Coinbase wallet
 
 For any question or information - message me on Farcaster @mani 
+
+/ day 1 - 0x2b7bf8c9efaed2207074698911fa6d0de999b756
