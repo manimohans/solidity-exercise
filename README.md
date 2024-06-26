@@ -11,4 +11,4 @@ Using the following:
 
 For any question or information - message me on Farcaster @mani 
 
-/ day 1 - 0x2b7bf8c9efaed2207074698911fa6d0de999b756
+/ day 1 - 0x32f4d661ead48582f5c7c3f78aae03d2fa00bc02
