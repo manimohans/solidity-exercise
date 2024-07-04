@@ -19,3 +19,4 @@ For any question or information - message me on Farcaster @mani
 - day 6 - 0xf382d1Baf0B10D9978cE94e832F64Dd384444015
 - day 7 - 0xC1Eab919a8817a11D0e745E6E57659287d686FDB
 - day 8 - 0xf8A71Be3b4FFeB9f27503686C25Ac339C7650e5a
+- day 9 - 0xce6a3F84aD346ae68Dc0b8Bd69171EA654DDd686
