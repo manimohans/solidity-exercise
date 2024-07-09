@@ -28,12 +28,17 @@ For any question or information - message me on Farcaster @mani
 
 
 ## Learnings 
-* Lack of Floating-Point: For science and math computations, floating point precision is most times necessary. It was very hard to use fixed point arithmetic etc., as workaround.
+### Lack of Floating-Point: 
+- For science and math computations, floating point precision is most times necessary. It was very hard to use fixed point arithmetic etc., as workaround.
 
-* Limited Math Functions:  Very limited math functions - had to use taylor series and other approximations for complex functions. Considering gas costs, the precision had to be kept low for these series calculations (often stopping at var^3 or var^4)
+### Limited Math Functions:  
+- Very limited math functions - had to use taylor series and other approximations for complex functions. Considering gas costs, the precision had to be kept low for these series calculations (often stopping at var^3 or var^4)
 
-* Gas Costs:  As mentioned above, it is a tough trade off between precision and computational costs.
+### Gas Costs:  
+- As mentioned above, it is a tough trade off between precision and computational costs.
 
-* Fixed-Point Representation: Fixed point arithmetic was often times used as a replacement for floats. But, it's very hard to determine a good scale factor to use, and also, precision takes a hit with fixed point representaiton. 
+### Fixed-Point Representation: 
+- Fixed point arithmetic was often times used as a replacement for floats. But, it's very hard to determine a good scale factor to use, and also, precision takes a hit with fixed point representaiton. 
 
-* Complexity and Readability: Code gets very complex for all the above reasons. As you can see in some of the contract files in this repo, the code's readability is questionable - I tried my best to keep it neat. 
+### Complexity and Readability: 
+- Code gets very complex for all the above reasons. As you can see in some of the contract files in this repo, the code's readability is questionable - I tried my best to keep it neat. 
