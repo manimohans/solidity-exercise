@@ -1,6 +1,6 @@
 # 30-day smart contract personal challenge
 
-I'm challenging myself to code one smart contract a day for the next 30 days. I'll start by storing simple math and physics constants and gradually tackle complex data structures and scientific applications.
+I'm challenging myself to code one smart contract a day for the next two weeks. I'll start by storing simple math and physics constants and gradually tackle complex data structures and scientific applications.
 
 Each day, the goal is to focus on a new concept, getting a bit harder as I go. By the end, I hope to have a good grasp of Solidity and understand how it can be used in scientific fields.
 
@@ -24,3 +24,16 @@ For any question or information - message me on Farcaster @mani
 - day 11 - 0x8ea87d9762cc7fF68AcEcD83316aDD8C0bf75Bcd
 - day 12 - 0x2d6626a9b14c792e44F9E4cAC443CbA59FEDb907
 - day 13 - 0xA164cd659b0466C1887ddD49D0A194C852F06f01
+- day 14 - 0x3D5D33e6F7Fb995e428b617008C0D62602d1B7f0
+
+
+## Learnings 
+* Lack of Floating-Point: For science and math computations, floating point precision is most times necessary. It was very hard to use fixed point arithmetic etc., as workaround.
+
+* Limited Math Functions:  Very limited math functions - had to use taylor series and other approximations for complex functions. Considering gas costs, the precision had to be kept low for these series calculations (often stopping at var^3 or var^4)
+
+* Gas Costs:  As mentioned above, it is a tough trade off between precision and computational costs.
+
+* Fixed-Point Representation: Fixed point arithmetic was often times used as a replacement for floats. But, it's very hard to determine a good scale factor to use, and also, precision takes a hit with fixed point representaiton. 
+
+* Complexity and Readability: Code gets very complex for all the above reasons. As you can see in some of the contract files in this repo, the code's readability is questionable - I tried my best to keep it neat. 
